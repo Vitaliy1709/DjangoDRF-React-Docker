@@ -1,0 +1,27 @@
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:rgb(223, 225, 231);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    align-items: center;
+    text-align: center;
+}
+
+.modal-button {
+    margin-top: 20px;
+}
+
+.modal-button button {
+    width: 100px;
+    margin: 5px;
+}
+
+.modal-group-select {
+    text-align: left;
+    margin: 10px 45px auto;
+}
